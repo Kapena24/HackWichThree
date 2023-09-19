@@ -6,6 +6,9 @@
 //
 
 import UIKit
+var firstString = "The background color will turn blue"
+var secondString = "The background color will turn green"
+var thirdString = "cool"
 
 class ViewController: UIViewController {
 
@@ -14,6 +17,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func pressColorChange(_ sender: UIButton) {
+        if firstString == "The background color will turn blue" {
+    self.view.backgroundColor = UIColor.red
+            }else{
+    self.view.backgroundColor = UIColor.blue
+            
+        }
+        
+    }
+    
 }
 
