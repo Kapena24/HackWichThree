@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     self.view.backgroundColor = UIColor.blue
             
         }
-        
+var completeString = "This " + "is " + thirdString
     }
     
 }
