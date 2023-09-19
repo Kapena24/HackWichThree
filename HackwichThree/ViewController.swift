@@ -59,7 +59,7 @@ if firstIntConstant > secondIntConstant {
            
     view.backgroundColor = UIColor.green
             
-let thirdIntConstant = firstIntConstant - secondIntConstant
+let thirdIntConstant = firstIntConstant + secondIntConstant
 
     print("The third constant is \(thirdIntConstant)")
         }
